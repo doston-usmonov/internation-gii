@@ -1,0 +1,34 @@
+{
+    "name": "inter-nation/inter-communication",
+    "description": "Inter-Nation communication",
+    "minimum-stability": "dev",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Doston Usmonov",
+            "email": "doston.internation@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2-gii": "^2.0.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "InterNation\\gii\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:inter-nation/inter-auth.git"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
