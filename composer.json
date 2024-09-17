@@ -1,7 +1,7 @@
 {
     "name": "inter-nation/gii",
     "description": "Inter-Nation Gii",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "type": "package",
     "authors": [
         {
