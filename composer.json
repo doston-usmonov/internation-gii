@@ -1,6 +1,6 @@
 {
-    "name": "inter-nation/inter-communication",
-    "description": "Inter-Nation communication",
+    "name": "inter-nation/gii",
+    "description": "Inter-Nation Gii",
     "minimum-stability": "dev",
     "type": "package",
     "authors": [
@@ -20,12 +20,6 @@
             "InterNation\\gii\\": "src"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:inter-nation/inter-auth.git"
-        }
-    ],
     "config": {
         "allow-plugins": {
             "yiisoft/yii2-composer": true
