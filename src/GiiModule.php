@@ -5,7 +5,7 @@
  * @license https://www.yiiframework.com/license/
  */
 
-namespace yii\gii;
+namespace InterNation\gii;
 
 use yii\gii\Module;
 
